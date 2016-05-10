@@ -75,14 +75,18 @@
 			<Item Name="Globals - UI and RT Streams.vi" Type="VI" URL="../Globals - UI and RT Streams.vi"/>
 		</Item>
 		<Item Name="Loops" Type="Folder">
+			<Item Name="AcquireAndLog Loop.vi" Type="VI" URL="../AcquireAndLog Loop.vi"/>
 			<Item Name="Main RT.vi" Type="VI" URL="../Main RT.vi"/>
 			<Item Name="RT Loop - Acquisition and Logging.vi" Type="VI" URL="../../Support VIs/RT Loop - Acquisition and Logging.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
+			<Item Name="Acquisition and Logging Error Handler.vi" Type="VI" URL="../Acquisition and Logging Error Handler.vi"/>
 			<Item Name="Data Acquire and Log.vi" Type="VI" URL="../Data Acquire and Log.vi"/>
 			<Item Name="Data File Create.vi" Type="VI" URL="../Data File Create.vi"/>
+			<Item Name="Drive Manage.vi" Type="VI" URL="../Drive Manage.vi"/>
 			<Item Name="Initialize DAQ.vi" Type="VI" URL="../Initialize DAQ.vi"/>
 			<Item Name="Last Write Block.vi" Type="VI" URL="../Last Write Block.vi"/>
+			<Item Name="Log File Close.vi" Type="VI" URL="../Log File Close.vi"/>
 			<Item Name="Message Dequeue.vi" Type="VI" URL="../Message Dequeue.vi"/>
 			<Item Name="Message Enqueue.vi" Type="VI" URL="../Message Enqueue.vi"/>
 			<Item Name="Read DAQ.vi" Type="VI" URL="../Read DAQ.vi"/>
@@ -284,29 +288,35 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Acquire and Log Data.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Acquire and Log Data.vi"/>
+			<Item Name="Acquire and Log Data.vi" Type="VI" URL="../../Untitled Project 2/support/Acquire and Log Data.vi"/>
+			<Item Name="Acquisition and Logging Configuration.ctl" Type="VI" URL="../../Untitled Project 2/controls/Acquisition and Logging Configuration.ctl"/>
 			<Item Name="Acquisition and Logging Configuration.ctl" Type="VI" URL="../../../Tests/Untitled Project 2/controls/Acquisition and Logging Configuration.ctl"/>
-			<Item Name="Check for Reboot Loop.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Check for Reboot Loop.vi"/>
-			<Item Name="Check Loop Error.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Check Loop Error.vi"/>
-			<Item Name="Check Trigger Conditions.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Check Trigger Conditions.vi"/>
+			<Item Name="Check for Reboot Loop.vi" Type="VI" URL="../../Untitled Project 2/support/Check for Reboot Loop.vi"/>
+			<Item Name="Check Loop Error.vi" Type="VI" URL="../../Untitled Project 2/support/Check Loop Error.vi"/>
+			<Item Name="Check Trigger Conditions.vi" Type="VI" URL="../../Untitled Project 2/support/Check Trigger Conditions.vi"/>
+			<Item Name="Close Log File.vi" Type="VI" URL="../../Untitled Project 2/support/Close Log File.vi"/>
 			<Item Name="Close Log File.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Close Log File.vi"/>
-			<Item Name="Create Data File.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Create Data File.vi"/>
-			<Item Name="DAQ Close.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/DAQ Close.vi"/>
-			<Item Name="DAQ Initialize.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/DAQ Initialize.vi"/>
+			<Item Name="Create Data File.vi" Type="VI" URL="../../Untitled Project 2/support/Create Data File.vi"/>
+			<Item Name="DAQ Close.vi" Type="VI" URL="../../Untitled Project 2/support/DAQ Close.vi"/>
+			<Item Name="DAQ Initialize.vi" Type="VI" URL="../../Support VIs/DAQ Initialize.vi"/>
+			<Item Name="DAQ Read.vi" Type="VI" URL="../../Untitled Project 2/support/DAQ Read.vi"/>
 			<Item Name="DAQ Read.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/DAQ Read.vi"/>
-			<Item Name="Error Type.ctl" Type="VI" URL="../../../Tests/Untitled Project 2/controls/Error Type.ctl"/>
-			<Item Name="Get Recoverable Network Streams Errors.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Get Recoverable Network Streams Errors.vi"/>
-			<Item Name="Global - Configuration Options.vi" Type="VI" URL="../../../Tests/Untitled Project 2/Globals/Global - Configuration Options.vi"/>
+			<Item Name="Error Type.ctl" Type="VI" URL="../../Untitled Project 2/controls/Error Type.ctl"/>
+			<Item Name="Get Recoverable Network Streams Errors.vi" Type="VI" URL="../../Untitled Project 2/support/Get Recoverable Network Streams Errors.vi"/>
+			<Item Name="Global - Configuration Options.vi" Type="VI" URL="../../Untitled Project 2/Globals/Global - Configuration Options.vi"/>
+			<Item Name="Global - Monitoring Variables.vi" Type="VI" URL="../../Untitled Project 2/Globals/Global - Monitoring Variables.vi"/>
 			<Item Name="Global - Monitoring Variables.vi" Type="VI" URL="../../../Tests/Untitled Project 2/Globals/Global - Monitoring Variables.vi"/>
-			<Item Name="Global - RT Stream Connections.vi" Type="VI" URL="../../../Tests/Untitled Project 2/Globals/Global - RT Stream Connections.vi"/>
+			<Item Name="Global - RT Stream Connections.vi" Type="VI" URL="../../Untitled Project 2/Globals/Global - RT Stream Connections.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Manage Drive.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/Manage Drive.vi"/>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../../../Tests/Untitled Project 2/support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="Manage Drive.vi" Type="VI" URL="../../Untitled Project 2/support/Manage Drive.vi"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../../Untitled Project 2/support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RT - Send Message to UI.vi" Type="VI" URL="../../Untitled Project 2/support/RT - Send Message to UI.vi"/>
 			<Item Name="RT - Send Message to UI.vi" Type="VI" URL="../../../Tests/Untitled Project 2/support/RT - Send Message to UI.vi"/>
-			<Item Name="RT Error Handler - Acquisition and Logging.vi" Type="VI" URL="../../../Tests/Untitled Project 2/RT Error Handlers/RT Error Handler - Acquisition and Logging.vi"/>
+			<Item Name="RT Error Handler - Acquisition and Logging.vi" Type="VI" URL="../../Untitled Project 2/RT Error Handlers/RT Error Handler - Acquisition and Logging.vi"/>
+			<Item Name="TDMS Properties.ctl" Type="VI" URL="../../Untitled Project 2/controls/TDMS Properties.ctl"/>
 			<Item Name="TDMS Properties.ctl" Type="VI" URL="../../../Tests/Untitled Project 2/controls/TDMS Properties.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
